@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crystal Gems Collector!</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
+      <h1>Crystal Gems Collector!</h1>
 
-        <h1>Crystal Gems Collector!</h1>
-
-        <div class="row">
-            <div class="col-lg-7 wrapper">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four Crystal Gems below. By clicking on the Crystal Gem you will add a specific amount of
-                    points to your
-                    total score.</p>
-                <p>You will win the game by matching your total score to the random number, you lose the game if your
-                    total
-                    score goes above the random number.</p>
-                <p>The value of each Crystal Gem is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the values of each Crystal Gem</p>
-            </div>
+      <div class="row">
+        <div class="col-lg-7 wrapper">
+          <p>You will be given a random number at the start of the game.</p>
+          <p>
+            There are four Crystal Gems below. By clicking on the Crystal Gem
+            you will add a specific amount of points to your total score.
+          </p>
+          <p>
+            You will win the game by matching your total score to the random
+            number, you lose the game if your total score goes above the random
+            number.
+          </p>
+          <p>
+            The value of each Crystal Gem is hidden from you until you click on
+            it.
+          </p>
+          <p>
+            Each time when the game starts, the game will change the values of
+            each Crystal Gem
+          </p>
         </div>
-<br>
+      </div>
+      <br />
 
-        <div class="row">
-            <div class="col-lg-7 wrapper">
-                <div class="row">
-                    <div class="offset-lg-1"></div>
-                    <div class="goal col-lg-4">
-                        Goal Score: <span id="goal-number"></span>
-                    </div>
-                    <div class="win-loss col-lg-3">
-                        <!--this is for the win/loss counter-->
-                        Wins: <span id="win-counter"></span>
-                    </div>
-                    <div class="win-loss col-lg-3">
-                        Losses: <span id="loss-counter"></span>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-lg-7 wrapper">
+          <div class="row">
+            <div class="offset-lg-1"></div>
+            <div class="goal col-lg-4">
+              Goal Score: <span id="goal-number"></span>
             </div>
-
-        </div>
-
-        <br>
-        <div class="row">
-            <div class="col-lg-7 wrapper">
-                <div class="row">
-                    <div class="offset-lg-1"></div>
-                <div id="crystals"></div>
+            <div class="win-loss col-lg-3">
+              Wins: <span id="win-counter"></span>
             </div>
+            <div class="win-loss col-lg-3">
+              Losses: <span id="loss-counter"></span>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div>
-            <!--literally just "Your total score is:"-->
+      <br />
+      <div class="row">
+        <div class="col-lg-7 wrapper">
+          <div class="row">
+            <div class="offset-lg-1"></div>
+            <div id="crystals"></div>
+          </div>
         </div>
+      </div>
 
-
-
-        <h2>Total: <span class="score">0</span></h2>
-        <div id="end-message"></div>
-        <button id="button">Button</button>
+      <h2>Total: <span class="score">0</span></h2>
+      <div id="end-message"></div>
+      <button id="button">Button</button>
     </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-
-</body>
-
+  </body>
 </html>
