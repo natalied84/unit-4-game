@@ -1,0 +1,29 @@
+body {
+
+    background-image: url("images/diagmonds-light.png");
+    background-color: #ff6bee;
+
+}
+
+p {
+
+    margin-bottom: 8px;
+
+}
+
+
+#directions {
+
+    background-color: bisque;
+    border: 1px double gray;
+
+
+}
+
+.wrapper {
+
+    background-color: white;
+    border: 1px double gray;
+
+}
+
