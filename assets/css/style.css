@@ -27,3 +27,15 @@ p {
 
 }
 
+.score-row  {
+
+    font-style: 18px;
+    font-weight: bold;
+
+}
+
+#bottom-row {
+
+    margin-top: 10px;
+}
+

@@ -6,7 +6,6 @@ var goalScore = Math.ceil(Math.random() * 112) + 18;
 var numberOptions;
 var crystalGem = ["pearl", "garnet", "bismuth", "lapis"];
 var gemSrc = ["assets/images/Pearl.png", "assets/images/Garnet.png", "assets/images/Bismuth.png", "assets/images/Lapis Lazuli.png"];
-var clod = new Audio("Peridot - You... CLOD!!!.mp3");
 
 $("#goal-number").text(goalScore);
 $("#win-counter").text(wins);
@@ -40,7 +39,7 @@ $("#button").click(function () {
         
     $("#goal-number").text(goalScore);
     $(".score").text(counter);
-    $("#end-message").text("")
+    $("#end-message").text("");
 
 })
 
@@ -48,14 +47,9 @@ $("#button").click(function () {
 
 $(".crystal-gem").click(function () {
 
- clod.play()
-    if ($("#end-message").text() === "")
     var crystalValue = ($(this).attr("value"));
-
     crystalValue = parseInt(crystalValue);
-    console.log(counter);
     $(".score").text(counter);
-
 
      if (counter < goalScore) {
 
@@ -64,17 +58,15 @@ $(".crystal-gem").click(function () {
 
         if (counter === goalScore) {
 
-            console.log("you win");
             wins += 1;
             $("#win-counter").text(wins);
-            $("#end-message").text("You win")
+            $("#end-message").text("You Win!! :)");
 
         } else if (counter > goalScore) {
 
-        console.log("you lose");
         losses += 1;
         $("#loss-counter").text(losses);
-        $("#end-message").text("You lose")
+        $("#end-message").text("You Lose :(");
  
     }} 
 
