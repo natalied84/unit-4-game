@@ -1,7 +1,40 @@
-# unit-4-game
+#Crystal Gem Clicker
+
+###Introduction
+
+The intent of this homework was to build up my JQuery skills (also JS in general). The aim was to make a simiple game. You start by clicking the Start Game button, you are then given an initial target number (which is randomly determined) that you have to hit to win. You have to hit the exact number, if you go over you lose. You play by clicking on the crystal gems, each of which is assigned a random value of 1-12. You continue clicking the crystal gems until you either win or lose. Your wins and loses are tracked and you restart by clicking on the Start Game button again.
+###Technologies
+
+Bootstrap 4, JQuery
+
+####Setup
+
+Load the page then click Start Game
+
+###Features
+
+-Super simple gameplay
+
+-The ability to win or lose and keep track of your stats
+
+-Your favorite Crystal Gems from your favorite Cartoon Network show
+
+-Numbers
+
+####Features I'd like to add
+
+-Local storage of stats (perhaps Firebase...?)
+
+-Sound effects
+
+-Life or death consequenses
+
+#Homework Istructions Below
+
+## unit-4-game
 
 
-# jQuery Assignment
+## jQuery Assignment
 
 ### Overview
 
